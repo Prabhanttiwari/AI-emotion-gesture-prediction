@@ -1,0 +1,65 @@
+body {
+    background: linear-gradient(145deg, #e0e7ff, #f0f4ff);
+    font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+    text-align: center;
+    font-weight: 800;
+    font-size: 3rem;
+    background: -webkit-linear-gradient(45deg, #4f46e5, #ec4899);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 0;
+}
+
+h2 {
+    text-align: center;
+    color: #374151;
+}
+
+.card {
+    background: white;
+    border-radius: 25px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+    padding: 25px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.stButton>button {
+    background: linear-gradient(45deg, #6366f1, #ec4899);
+    color: white;
+    border: none;
+    border-radius: 50px;
+    padding: 15px 40px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.stButton>button:hover {
+    transform: scale(1.05);
+    background: linear-gradient(45deg, #4f46e5, #db2777);
+}
+
+#draggable-div {
+    position: absolute;
+    top: 250px;
+    left: 50%;
+    transform: translateX(-50%);
+    cursor: move;
+    z-index: 9999;
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    padding: 5px;
+}
+
+.footer {
+    text-align: center;
+    margin-top: 40px;
+    color: #6b7280;
+    font-size: 0.9rem;
+}
